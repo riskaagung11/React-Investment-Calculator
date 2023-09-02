@@ -1,6 +1,6 @@
 import Header from "./components/Header/Header";
 import ResultsTable from "./components/ResultsTable/ResultsTable";
-import Userinput from "./components/UserInput/Userinput";
+import UserInput from "./components/UserInput/Userinput";
 
 function App() {
   const calculateHandler = (userInput) => {
@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Userinput />
+      <UserInput />
       <ResultsTable />
     </div>
   );
